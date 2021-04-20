@@ -1,4 +1,98 @@
-body {
-	background-color: #e8ebf0;
+html, body {
+	background-color: #304060;
 	color: #101010;
+   height: 100%;
+}
+
+div {
+   margin: 0px;
+}
+
+/*********/
+/* Title */
+/*********/
+div#title_div {
+   background-color: #e8ebf0;
+   border-bottom: 2px solid #77f;
+   max-width: 100%;
+   padding: 30px;
+}
+
+/***********/
+/* Sidebar */
+/***********/
+div#sidebar {
+   background-color: #444444;
+   border-right: solid black 5px;
+   display: inline-block;
+   float: left;
+   height: 100%;
+   max-width: 300px;
+   position: sticky;
+   width: 300px;
+}
+
+div#sidebar span {
+   color: #bbb;
+   display: block;
+   font-style: italic;
+   padding: 10px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+/* Navbar */
+
+ul.navbar li a {
+   color: white;
+   display: block;
+   padding: 20px;
+   text-decoration: none;
+}
+
+ul.navbar li a:hover {
+   background-color: #111;
+}
+
+/* Icons */
+
+ul.icons {
+   padding: 10px;
+   text-align: center;
+}
+
+ul.icons li {
+   display: inline;
+   padding-right: 30px;
+}
+
+div#attribution {
+   color: #777;
+   font-size: 10px;
+}
+
+div#attribution a {
+   color: #888;
+   padding: 5px;
+}
+
+/***********/
+/* Content */
+/***********/
+div#main_container div {
+   min-height: 100%;
+}
+
+div#content {
+   background-color: #ddd;
+   border: 2px solid #223;
+   clear: both;
+   display: inline-block;
+   margin-left: 30%;
+   margin-right: 10%;
+   min-width: 50%;
 }
