@@ -1,11 +1,7 @@
-html, body {
-	background-color: #304060;
+html, body { background-color: #304060;
 	color: #101010;
    height: 100%;
-}
-
-div {
-   margin: 0px;
+   margin: 0;
 }
 
 /*********/
@@ -13,7 +9,7 @@ div {
 /*********/
 div#title_div {
    background-color: #e8ebf0;
-   border-bottom: 2px solid #77f;
+   border-bottom: 8px double #77f;
    max-width: 100%;
    padding: 30px;
 }
@@ -36,6 +32,7 @@ div#sidebar span {
    color: #bbb;
    display: block;
    font-style: italic;
+   margin-top: 30px;
    padding: 10px;
 }
 
@@ -83,8 +80,8 @@ div#attribution a {
 /***********/
 /* Content */
 /***********/
-div#main_container div {
-   min-height: 100%;
+div#main_container {
+   height: 100%;
 }
 
 div#content {
@@ -92,7 +89,6 @@ div#content {
    border: 2px solid #223;
    clear: both;
    display: inline-block;
-   margin-left: 30%;
-   margin-right: 10%;
-   min-width: 50%;
-}
+   margin: 100px;
+   padding: 20px;
+   
